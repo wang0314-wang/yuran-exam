@@ -491,8 +491,8 @@
         <div class="chip">📱 点一下屏幕试试</div>
       </div>
       <div class="music-indicator">
-        <span class="dot"></span>
-        <span>首次点击页面后可尝试播放背景音乐（需要同目录的 music.mp3）</span>
+        <span class="dot">音乐不用点了，没找到好听的，没放</span>
+        <span></span>
       </div>
     </div>
 
@@ -528,7 +528,7 @@
 
         <div class="blessing-actions">
           <button class="btn-primary" onclick="showBlessing()">点击领取祝福</button>
-          <button class="btn-secondary" onclick="toggleMusic()" id="musicBtn">播放背景音乐</button>
+          <button class="btn-secondary" onclick="toggleMusic()" id="musicBtn">播放音乐</button>
           <button class="btn-ghost" onclick="scrollToWall()">去祝福墙</button>
         </div>
 
@@ -577,7 +577,7 @@
       <h2>祝福墙</h2>
       <div class="wall-form">
         <input id="senderName" maxlength="12" placeholder="你的名字" />
-        <textarea id="senderMsg" maxlength="80" placeholder="写下对自己的祝福"></textarea>
+        <textarea id="senderMsg" maxlength="80" placeholder="留下你的祝福"></textarea>
         <button class="btn-primary" onclick="addMessage()">发送</button>
       </div>
       <div class="messages" id="messageList"></div>
